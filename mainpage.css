@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: Mermaid;
+    color: #A30A06;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+h2{
+    text-align: center;
+    font-size: 130px;
+    font-family: Mermaid;
+    color: #A30A06;
+    margin-top: -1%;
+    margin-bottom: 3%;
+}
+
+div{
+    text-align: center;
+    
+}
+
+button {
+	display: inline-block;
+  	padding: 1em 2em;
+  	border-radius: 0;
+	color: white;
+    font-family: S-Core Dream;
+  	font-weight: bold;
+  	font-size: 20px;
+  	letter-spacing: 2px;
+    width: 200px;
+  	text-transform: uppercase;
+  	text-decoration: none;
+	background: linear-gradient(to right, rgba(#b2876f, 0) 25%, rgba(#b2876f, .8) 75%);
+	background-position: 1% 50%;
+	background-size: 400% 300%;
+    background-color: #052F53;
+	border: 3px solid #DBDBDB;
+    transition: 700ms;
+}
+
+button:hover{
+    color: white;
+    color: #D3B06A;
+    background-position: 99% 50%;
+    transition: 400ms;
+}

@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Mermaid;
+    color: #A30A06;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+h2{
+    text-align: center;
+    font-size: 100px;
+    font-family: Mermaid;
+    color: #A30A06;
+    margin-top: -0.5%;
+    margin-bottom: 3%;
+}
+
+h3{
+    text-align: center;
+    font-family: S-Core Dream;
+    font-size: 45px;
+    color: #052F53;
+
+}
+div{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+  	padding: 1em 2em;
+  	border-radius: 0;
+	color: white;
+    font-family: S-Core Dream;
+  	font-weight: bold;
+  	font-size: 15px;
+  	letter-spacing: 2px;
+    width: 100px;
+  	text-transform: uppercase;
+  	text-decoration: none;
+	background: linear-gradient(to right, rgba(#b2876f, 0) 25%, rgba(#b2876f, .8) 75%);
+	background-position: 1% 50%;
+	background-size: 400% 300%;
+    background-color: #052F53;
+	border: 1.5px solid #DBDBDB;
+    transition: 700ms;
+}
+
+button:hover{
+    color: white;
+    color: #D3B06A;
+    background-position: 99% 50%;
+    transition: 400ms;
+}
+
+input{
+    width: 330px;
+    height: 35px;
+    border-top: #BFB8A2;
+    border-left: #BFB8A2;
+    border-right: #BFB8A2;
+    border-bottom: 3px solid black;
+    background-color: #BFB8A2;
+    font-family: S-Core Dream;
+}

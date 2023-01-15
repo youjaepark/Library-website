@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Program</title>
+    <style>
+        body{background-color: #BFB8A2;}
+    </style>
+    <Link rel="stylesheet" type="text/css" href="subpage1_2.css"/>
+</head>
+<body>
+    <h1>HAVEN</h1>
+    <h2>LIBRARY</h2>
+    <h4>___학생</h4>
+    <br>
+    <h5>대출할 도서를 바코드에 찍어주세요</h5>
+    <br>
+    <h6>현재 대출: __권</h6>
+    <div>
+        <button onclick=" if (!confirm('정말로 취소하시겠습니까?')) {
+        } else {
+            window.location.href='mainpage.html'
+        }">취소</button>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="if (!confirm('해당 도서를 대출 하시겠습니까?')) {
+        } else {
+            if(!alert('000학생은 반납 연체로 인해 2022년 0월 0일까지 대출 정지 상태입니다. or 대출이 완료되었습니다 대출기한은 0000년 00월 00일까지 입니다. 이용해주셔서 감사합니다')) window.location.href='mainpage.html'
+        }">확인</button> 
+    </div>
+</body>
+</html>
